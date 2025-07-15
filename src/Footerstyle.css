@@ -1,0 +1,82 @@
+.footcontainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 30px 5px;
+}
+
+.footlogo> img{
+  max-width: 163px;
+}
+
+.navigation .navitems{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navitems> a{
+  padding: 10px 0;
+  color: black;
+}
+
+.subletter{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.subletter> h1{
+  padding-bottom: 50px;
+}
+
+.socialmedia{
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialmedia> a{
+  text-decoration: none;
+  color: black;
+  padding-top: 30px;
+}
+
+
+.subform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 36px;
+}
+
+.subform> input{
+  border: none;
+  font-size:100%;
+  padding: 0 36px 0 12px;
+}
+
+input:focus{
+  outline: none;
+  border: none;
+}
+
+.subform> button{
+  margin: 0 2px;
+  font-size: 100%;
+  border:none;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: gray;
+}
+
+button:hover{
+  background-color: rgb(78, 77, 77);
+  cursor: pointer;
+}
+
+.socialmedia>a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

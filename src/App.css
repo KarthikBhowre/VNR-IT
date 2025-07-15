@@ -1,0 +1,136 @@
+.maincontainer {
+    /* padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px; */
+    padding: 20px 16px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maincontainer>h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.containercard {
+    max-width: 486px;
+    border-radius: 5px;
+    padding: 0 16px;
+    background-color: white;
+    align-items: center;
+    transition: all 0.6s ease-in-out;
+}
+
+.containercard> a{
+    color: black; text-decoration: none;
+}
+
+.htmlcontent {
+    padding: 16px;
+}
+
+.containercards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 16px 0 16px;
+    margin: 23px;
+
+}
+
+.htmlhead1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 16px;
+    margin: 0 -16px;
+    border-radius: 5px 5px 0 0;
+}
+
+.htmlhead2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0776dd;
+    padding: 16px;
+    margin: 0 -16px;
+    border-radius: 5px 5px 0 0;
+}
+
+.htmlhead3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 16px;
+    margin: 0 -16px;
+    border-radius: 5px 5px 0 0;
+}
+
+.htmlhead4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 16px;
+    margin: 0 -16px;
+    border-radius: 5px 5px 0 0;
+}
+
+.htmlhead5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    padding: 16px;
+    margin: 0 -16px;
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+.bgc .containercard>.two>.htmlhead {
+    background: linear-gradient(94.45deg,
+            #33003c -16.41% 0%,
+            #8000ff 128.28% 100%);
+}
+
+.bgc {
+    background-color: #ededed70;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containercard:hover{
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+
+
+/* .containercard> .htmlhead{
+    background-color:#0776dd;
+    display: flex;
+    justify-content: space-between
+}
+
+.containercards{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    padding: 20px;
+    border-bottom: 1px solid #e9ecef;
+    background-color: aliceblue;
+} */
