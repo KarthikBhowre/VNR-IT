@@ -14,7 +14,6 @@ function App() {
     <main className='bgc'>
         <div className="maincontainer">
             <h1>Programs We Offer</h1>
-            
         </div>
         <div className="containercards">
         <div className="containercard one">
