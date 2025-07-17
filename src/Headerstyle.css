@@ -54,7 +54,7 @@ a>p {
       border: none;
       cursor: pointer;
       border-radius: 0%;
-      font-size: 16px;
+      font-size: 15px;
     }
 
     .dropdown-content {
@@ -72,6 +72,7 @@ a>p {
       padding: 12px 16px;
       text-decoration: none;
       display: block;
+      margin-right: 20px;
     }
 
     .dropdown-content a:hover {
@@ -83,5 +84,5 @@ a>p {
     }
 
     .dropdown:hover .dropdown-button {
-      background-color: #2980b9;
+      background-color: transparent;
     }
